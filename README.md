@@ -91,11 +91,11 @@ Here you can find also the files what I'm using in some parts next.
 
 In this step I'm creating three indexes:
 
-address_city
+- address_city
 
-address_state
+- address_state
 
-address_zip5
+- address_zip5
 
 
 The purpose of them is to increase the velocity in SELECT statements, when the user want to search in table Address by the corresponding column (city_id, state_id or zip5_id).
