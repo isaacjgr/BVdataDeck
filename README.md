@@ -105,4 +105,10 @@ The purpose of them is to increase the velocity in SELECT statements, when the u
 
 ### Features not in SQLite that can help to solve the problem
 
+- Based on description (point 1), " We standardize raw data so we can utilize existing tools whenever possible".
+
+Oracle Data Integrator tool can help us getting data from CSV or TXT file, filtering with corresponding validations and also loading this information to the destination database. This scenario will not generate a script, instead of that, this will provide a plan to run.
+
+This could be the fastest solution.
+
 
