@@ -101,4 +101,8 @@ In this step I'm creating three indexes:
 The purpose of them is to increase the velocity in SELECT statements, when the user want to search in table Address by the corresponding column (city_id, state_id or zip5_id).
 
 
+## Extra Credit
+
+### Features not in SQLite that can help to solve the problem
+
 
