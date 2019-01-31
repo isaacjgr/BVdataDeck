@@ -105,10 +105,22 @@ The purpose of them is to increase the velocity in SELECT statements, when the u
 
 ### Features not in SQLite that can help to solve the problem
 
-- Based on description (point 1), " We standardize raw data so we can utilize existing tools whenever possible".
+- Based on description (point 1), "We standardize raw data so we can utilize existing tools whenever possible".
 
-Oracle Data Integrator tool can help us getting data from CSV or TXT file, filtering with corresponding validations and also loading this information to the destination database. This scenario will not generate a script, instead of that, this will provide a plan to run.
+Oracle Data Integrator or Alteryx tool can help us getting data from CSV or TSV file, filtering with corresponding validations and also loading this information to the destination database. This scenario will not generate a script, instead of that, this will provide a plan to run within the same application.
 
-This could be the fastest solution.
+Pros:
+
+- This could be the fastest solution.
+
+- Eliminates some manual steps.
+
+- The process could be reproduced after the creation
+
+Cons:
+
+- Needs commercial software that can increase the budget of the company.
+
+- Depending on the security policies, this software can't be used, due to access policies to databases
 
 
