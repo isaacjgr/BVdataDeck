@@ -79,7 +79,7 @@ Here you can find also the files what I'm using in some parts next.
 
 1. Copy the file TestDatabase.sql within the folder you are working in. Then run the following query
 
-        `.read TestDatabase.sql`
+`.read TestDatabase.sql`
 		
 2. To fill the tables with the corresponding data, run the following query
 
@@ -87,5 +87,5 @@ Here you can find also the files what I'm using in some parts next.
 
 3. Copy the file indexes.sql within the folder you are working in. Then run the following query
 
-        `.read indexes.sql`
+`.read indexes.sql`
 
